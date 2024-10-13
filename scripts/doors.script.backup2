@@ -1,0 +1,10 @@
+play_sound("door.wav");
+if self.property["closed"] == true then
+  play_animation(self, "open");
+  replace_navigation(self, INTERACT_ONLY, WALK_AND_INTERACT);
+  set_entity_property(self, "closed", false);
+else
+  play_animation(self, "close");
+  replace_navigation(self, WALK_AND_INTERACT, INTERACT_ONLY);
+  set_entity_property(self, "closed", true);
+end;

@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "id": "ITEM_0001",
+      "name": "penis",
+      "description": "",
+      "tags": [],
+      "properties": {},
+      "stackable": false,
+      "object": "penis",
+      "usable": false
+    }
+  ],
+  "localized": false
+}

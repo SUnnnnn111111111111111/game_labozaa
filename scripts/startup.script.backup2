@@ -1,0 +1,9 @@
+load_map("card_selection", coord[0, 0, 0], SOUTH);
+$result = display_choices("Карту выбери", array["Main", "Test"]);
+if $result == 0 then
+  print("loading map_main");
+  load_map("map_main", coord[-7, -6, 0], EAST);
+else
+  print("loading map_test");
+  load_map("map_test", coord[3, -4, 0], EAST);
+end;

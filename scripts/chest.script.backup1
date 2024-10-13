@@ -1,0 +1,9 @@
+play_sound("chest.wav");
+if self.property["closed"] == true then
+  play_animation(self, "open");
+  enable_container("chest");
+  set_entity_property(self, "closed", false);
+else
+  play_animation(self, "close");
+  set_entity_property(self, "closed", true);
+end;

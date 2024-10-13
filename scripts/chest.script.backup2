@@ -1,0 +1,4 @@
+play_sound("chest.wav");
+play_animation(self, "open");
+enable_container("chest");
+play_animation(self, "close");

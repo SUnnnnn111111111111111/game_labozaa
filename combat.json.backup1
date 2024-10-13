@@ -1,0 +1,1 @@
+{"battles":{"wizard":{"defeat_script":"fight","map":"village","type":"tactical","victory_script":"fight"}},"damage_flash_effect":true,"damage_sound_type":"default","death_sound_type":"default","encounters":{},"enemies":{},"loot_drops":{},"miss_sound_type":"default","remove_dead_enemies":true,"spawns":{},"weapon_fire_mode":"single"}

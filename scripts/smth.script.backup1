@@ -1,0 +1,7 @@
+load_map("map1", coord[-7, -6, 0], SOUTH);
+$result = display_choices("Карту выбери", array["Main", "Test"]);
+if $result == "Main" then
+  load_map("map1", coord[-7, -6, 0], EAST);
+else
+  load_map("map_test", coord[3, -4, 0], EAST);
+end;
